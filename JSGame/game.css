@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
+}
+
+#gameUI {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background: #222;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: black;
+}
