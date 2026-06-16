@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#1b1b1b;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#8b0000;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#333;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+.card{
+    width:80%;
+    margin:25px auto;
+    background:#2a2a2a;
+    padding:20px;
+    border-radius:10px;
+}
+
+.enemy,
+.item{
+    margin-top:20px;
+}
+
+.game-img{
+    width:300px;
+    max-width:100%;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+    border:3px solid orange;
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:orange;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkorange;
+}
+
+#heroInfo{
+    margin-top:15px;
+    color:lightgreen;
+}
+
+footer{
+    background:#111;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
