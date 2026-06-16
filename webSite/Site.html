@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>2D Shooter</h1>
+    <p>Выживи и уничтожь всех врагов!</p>
+</header>
+
+<nav>
+    <a href="#hero">Главный герой</a>
+    <a href="#enemies">Враги</a>
+    <a href="#items">Предметы</a>
+</nav>
+
+<!-- Главный герой -->
+<section id="hero" class="card">
+    <h2>Главный герой</h2>
+
+    <!-- ВСТАВЬТЕ ССЫЛКУ НА КАРТИНКУ -->
+    <img src="https://i.postimg.cc/j577p1pW/Chat-GPT-Image-Jun-2-2026-03-40-19-PM.png"
+         alt="Главный герой"
+         class="game-img">
+
+    <p>
+        Главный герой — опытный боец, который использует
+        трофейный пистолет для борьбы с врагами.
+    </p>
+
+    <button onclick="showHero()">
+        Показать информацию
+    </button>
+
+    <p id="heroInfo"></p>
+</section>
+
+<!-- Враги -->
+<section id="enemies" class="card">
+    <h2>Враги</h2>
+
+    <div class="enemy">
+
+        <h3>👹 Босс</h3>
+
+        <!-- ССЫЛКА НА КАРТИНКУ БОССА -->
+        <img src="https://i.postimg.cc/RVMWdqZq/boss-removebg-preview.png"
+             alt="Босс"
+             class="game-img">
+
+        <p>
+            Огромный противник с большим запасом здоровья.
+        </p>
+    </div>
+
+    <div class="enemy">
+
+        <h3>💀 Обычный враг</h3>
+
+        <!-- ССЫЛКА НА КАРТИНКУ ВРАГА -->
+        <img src="https://i.postimg.cc/cLCrqjYZ/sniper-Enemy-removebg-preview.png"
+             alt="Обычный враг"
+             class="game-img">
+
+        <p>
+            Встречается часто и атакует игрока.
+        </p>
+    </div>
+</section>
+
+<!-- Предметы -->
+<section id="items" class="card">
+    <h2>Предметы</h2>
+
+    <div class="item">
+        <h3>🔫 Патроны</h3>
+        <ul>
+        <li>🔫 Патроны — пополняют боезапас.</li>
+    </ul>
+        <!-- ССЫЛКА НА КАРТИНКУ ПАТРОНОВ -->
+        <img src="https://i.postimg.cc/900vXGB0/Chat-GPT-Image-Jun-9-2026-03-29-41-PM.png"
+             alt="Патроны"
+             class="game-img">
+    </div>
+
+    <div class="item">
+        <h3>❤️ Аптечка</h3>
+        <ul>
+        <li>❤️ Аптечки — восстанавливают здоровье.</li>
+    </ul>
+
+        <!-- ССЫЛКА НА КАРТИНКУ АПТЕЧКИ -->
+        <img src="https://i.postimg.cc/ZnjK2F5T/Chat-GPT-Image-Jun-2-2026-03-43-24-PM.png"
+             alt="Аптечка"
+             class="game-img">
+    </div>
+
+    <div class="item">
+        <h3>🏆 Трофейное оружие</h3>
+      <ul>
+        <li>🏆 Трофейное оружие — мощный пистолет главного героя.</li>
+    </ul>
+
+        <!-- ССЫЛКА НА КАРТИНКУ ОРУЖИЯ -->
+        <img src="https://i.postimg.cc/SxnN19Fb/Chat-GPT-Image-Jun-2-2026-03-35-59-PM.png"
+             alt="Трофейное оружие"
+             class="game-img">
+    </div>
+</section>
+<section id="memes" class="card">
+    <h2>😂 Мемы по игре</h2>
+
+    <div class="meme">
+        <h3>Когда у тебя остался 1 HP</h3>
+
+        <!-- ВСТАВЬТЕ ССЫЛКУ НА МЕМ -->
+        <img src="https://i.postimg.cc/8P1bvp8F/supermeme-15h37-33.png"
+             alt="Мем 1"
+             class="game-img">
+
+    </div>
+
+    <div class="meme">
+        <h3>Когда выпало трофейное оружие</h3>
+      <p>
+            "Теперь боссу конец!"
+        </p>
+
+        <!-- ВСТАВЬТЕ ССЫЛКУ НА МЕМ -->
+        <img src="https://i.postimg.cc/3JJgRtpV/supermeme-15h40-23.png"
+             alt="Мем 2"
+             class="game-img">
+
+        
+    </div>
+
+    <div class="meme">
+        <h3>Когда закончились патроны</h3>
+      <p>
+            "План Б: беги!"
+        </p>
+
+        <!-- ВСТАВЬТЕ ССЫЛКУ НА МЕМ -->
+        <img src="https://i.postimg.cc/K833kwYs/supermeme-15h42-2.png"
+             alt="Мем 3"
+             class="game-img">
+
+        
+    </div>
+</section>
+<footer>
+    <p>© 2026 | Сайт про игру 2D Shooter</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
